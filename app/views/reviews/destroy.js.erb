@@ -1,0 +1,2 @@
+$('#review-<%= params[:id] %>').slideUp();
+$('#reviews-title').html('<%= pluralize @restaurant.reviews.size, "review" %>');
